@@ -2,8 +2,8 @@
 Summary:	Text-CSV_XS perl module
 Summary(pl):	Modu³ perla Text-CSV_XS
 Name:		perl-Text-CSV_XS
-Version:	0.20
-Release:	2
+Version:	0.22
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
