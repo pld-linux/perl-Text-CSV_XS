@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	CSV_XS
-Summary:	Text-CSV_XS perl module
-Summary(pl):	Modu³ perla Text-CSV_XS
+Summary:	Text::CSV_XS perl module
+Summary(pl):	Modu³ perla Text::CSV_XS
 Name:		perl-Text-CSV_XS
 Version:	0.23
 Release:	3
@@ -14,10 +14,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-CSV_XS - comma-separated values manipulation routines.
+Text::CSV_XS - comma-separated values manipulation routines.
 
 %description -l pl
-Text-CSV_XS umo¿liwia manipulowanie warto¶ciami rozdzielonymi
+Text::CSV_XS umo¿liwia manipulowanie warto¶ciami rozdzielonymi
 przecinkiem.
 
 %prep
