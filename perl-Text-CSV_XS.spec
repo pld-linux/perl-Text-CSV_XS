@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	CSV_XS
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-CSV_XS perl module
 Summary(pl):	Modu³ perla Text-CSV_XS
 Name:		perl-Text-CSV_XS
 Version:	0.23
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +21,7 @@ Text-CSV_XS umo¿liwia manipulowanie warto¶ciami rozdzielonymi
 przecinkiem.
 
 %prep
-%setup -q -n Text-CSV_XS-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
