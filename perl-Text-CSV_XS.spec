@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	CSV_XS
+%define		pdir	Text
+%define		pnam	CSV_XS
 Summary:	Text::CSV_XS perl module
 Summary(pl):	Modu³ perla Text::CSV_XS
 Name:		perl-Text-CSV_XS
