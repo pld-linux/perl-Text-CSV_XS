@@ -32,14 +32,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf ChangeLog README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc ChangeLog README
 %{perl_sitearch}/Text/CSV_XS.pm
 %dir %{perl_sitearch}/auto/Text/CSV_XS
 %{perl_sitearch}/auto/Text/CSV_XS/CSV_XS.bs
