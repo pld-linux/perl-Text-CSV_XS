@@ -6,7 +6,6 @@ Summary(pl):	Modu³ perla Text-CSV_XS
 Name:		perl-Text-CSV_XS
 Version:	0.23
 Release:	2
-
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
