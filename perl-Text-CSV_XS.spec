@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	CSV_XS
 Summary:	Text::CSV_XS perl module
-Summary(pl):	Modu≥ perla Text::CSV_XS
+Summary(pl.UTF-8):   Modu≈Ç perla Text::CSV_XS
 Name:		perl-Text-CSV_XS
 Version:	0.23
 Release:	5
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Text::CSV_XS - comma-separated values manipulation routines.
 
-%description -l pl
-Text::CSV_XS umoøliwia manipulowanie warto∂ciami rozdzielonymi
+%description -l pl.UTF-8
+Text::CSV_XS umo≈ºliwia manipulowanie warto≈õciami rozdzielonymi
 przecinkiem.
 
 %prep
