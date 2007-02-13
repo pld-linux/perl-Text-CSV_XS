@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	CSV_XS
 Summary:	Text::CSV_XS perl module
-Summary(pl.UTF-8):   Moduł perla Text::CSV_XS
+Summary(pl.UTF-8):	Moduł perla Text::CSV_XS
 Name:		perl-Text-CSV_XS
 Version:	0.23
 Release:	5
