@@ -34,6 +34,7 @@ przecinkiem.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
@@ -42,6 +43,7 @@ przecinkiem.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} \
+	CC="%{__cc}" \
 	install DESTDIR=$RPM_BUILD_ROOT
 
 %clean
