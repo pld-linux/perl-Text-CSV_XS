@@ -46,9 +46,8 @@ potrafi łączyć pola w łańcuch CSV oraz rozkładać łańcuch CSV na pola.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} \
-	CC="%{__cc}" \
-	install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
