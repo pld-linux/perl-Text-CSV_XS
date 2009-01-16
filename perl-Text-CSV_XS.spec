@@ -8,13 +8,13 @@
 Summary:	Text::CSV_XS - comma-separated values manipulation routines
 Summary(pl.UTF-8):	Text::CSV_XS - operacje na wartościach oddzielonych przecinkami
 Name:		perl-Text-CSV_XS
-Version:	0.45
+Version:	0.58
 Release:	1
 # same as perl
 License:	GPL v1+ oe Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	4a4db0ab2bd727bd5c54c4ed772e358a
+# Source0-md5:	0a60b6423f752220716dc0672b482055
 URL:		http://search.cpan.org/dist/Text-CSV_XS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
