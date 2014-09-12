@@ -57,6 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README
 %{perl_vendorarch}/Text/CSV_XS.pm
 %dir %{perl_vendorarch}/auto/Text/CSV_XS
-%{perl_vendorarch}/auto/Text/CSV_XS/CSV_XS.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Text/CSV_XS/CSV_XS.so
 %{_mandir}/man3/Text::CSV_XS.3pm*
