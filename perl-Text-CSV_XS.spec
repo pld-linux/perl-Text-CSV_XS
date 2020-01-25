@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Text
 %define		pnam	CSV_XS
 Summary:	Text::CSV_XS - comma-separated values manipulation routines
