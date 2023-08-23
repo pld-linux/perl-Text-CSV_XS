@@ -1,20 +1,20 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Text
 %define		pnam	CSV_XS
 Summary:	Text::CSV_XS - comma-separated values manipulation routines
 Summary(pl.UTF-8):	Text::CSV_XS - operacje na wartościach oddzielonych przecinkami
 Name:		perl-Text-CSV_XS
-Version:	1.49
-Release:	2
+Version:	1.51
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	479d31e37a1282966d3bd47506fb2dcd
-URL:		https://metacpan.org/release/Text-CSV_XS
+# Source0-md5:	da151be3259b7d95e1a3573cab26dae2
+URL:		https://metacpan.org/dist/Text-CSV_XS
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
